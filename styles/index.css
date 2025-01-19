@@ -92,3 +92,18 @@ body{
     margin: 10px 0;
 
 }
+
+/* main area */
+
+  /* section-part-one */
+
+.images_container{
+    max-width: 1240px;
+    margin:150px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    box-shadow: 0 0 3px bisque;
+    padding: 40px 30px;
+    gap: 60px;
+    
+}

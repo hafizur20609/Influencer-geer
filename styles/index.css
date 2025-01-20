@@ -16,6 +16,7 @@
 }
 body{
     font-family: "Poppins", serif;
+    background-color: #aaaaaa1a;
 }
 
 /* header-area */
@@ -90,6 +91,7 @@ body{
     color: #787885;
     font-weight: 700;
     margin: 10px 0;
+    line-height: 1.8rem;
 
 }
 
@@ -97,9 +99,9 @@ body{
 
   /* section-part-one */
 
-.images_container{
+.icon_container{
     max-width: 1240px;
-    margin:150px auto;
+    margin:100px auto;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     box-shadow: 0 0 3px bisque;
@@ -107,4 +109,112 @@ body{
     gap: 60px;
     align-items: center;
     
+}
+
+/* section-part-two */
+
+.images_container{
+    max-width: 1140px;
+    margin:50px auto ;
+
+}
+
+.cards_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid black; */
+    gap:25px;
+}
+.image_box{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px black;
+    
+}
+.image_box_title{
+    font-size: 1.8rem;
+    margin: 10px 0;
+
+}
+.image_box_number{
+    font-size: 1.5rem;
+}
+
+.image_contant_box{
+    max-width: 340px;
+    margin: 30px auto;
+    
+}
+.image_contant_box h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.images_btn_box{
+    text-align: right;
+    margin: 10px 0;
+}
+.images_btn_box button{
+    padding: 10px 15px;
+    color: #E02C6D;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+}
+
+/* section_part-three  */
+
+.featured_container{
+    max-width: 1240px;
+    margin: 100px auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    /* border: 1px solid ; */
+}
+.featured_contant_box{
+max-width: 650px;
+}
+
+.featured_contant_title{
+    font-size: 2.5rem;
+}
+.featured_btn_box{
+    margin: 30px 0;
+}
+
+.featured_btn_box button{
+    padding: 15px 40px ;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+}
+/* footer area */
+
+.footer{
+    background-color: #0A0826;
+}
+.footer_contant_box{
+    max-width: 400px;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+    padding:50px 0;
+}
+.footer_title{
+    font-size: 1.5rem;
+}
+.footer_images_container{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.footer_images_container img{
+    filter: grayscale(100%);
+    background-color: #787885;
+    padding: 5px 5px;
+    border-radius: 50%;
 }

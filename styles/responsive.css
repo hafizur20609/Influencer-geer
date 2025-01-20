@@ -48,13 +48,51 @@
     }
 
     /* section-one */
-    .images_container{
+    .icon_container{
         margin:50px auto;
         grid-template-columns:repeat(3,1fr);
         box-shadow:none;
         gap:20px;
         row-gap:40px;
         justify-items: center;
+    }
+    /* section-part-two */
+    .images_container{
+        max-width: 1140px;
+        margin:0px auto ;
+    
+    }
+    .cards_container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 10px;
+        justify-items: center;
+    }
+    .image_contant_box{
+        text-align: center;
+    }
+    .images_btn_box{
+        text-align:center;
+    
+    }
+
+    /* section-container-three */
+    .featured_container{
+        max-width: 1240px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* border: 1px solid ; */
+        padding: 0 20px;
+    }
+    .featured_image_box img{
+        width: 100%;
+      }
+    .featured_contant_title{
+        font-size: 2rem;
+    }
+    .featured_contant_box{
+     text-align: center;
     }
 }
 
@@ -81,10 +119,9 @@
     }
 
     /* section-part-one */
-    .images_container{
+    .icon_container{
         max-width: 1240px;
         margin:150px auto;
-        display: grid;
         grid-template-columns: repeat(4,1fr);
         box-shadow: none;
         padding: 40px 30px;
@@ -94,4 +131,36 @@
        
         
     }    
+    /* section-tow */
+    .images_container{
+        margin:0px auto ;
+    
+    }
+
+    .cards_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* border: 1px solid black; */
+        gap:25px;
+        padding: 20px 30px;
+        justify-items: center;
+    }
+    .image_contant_box{
+        max-width: 340px;
+        margin: 30px auto;
+        text-align: center;
+        
+    }
+    .images_btn_box{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* section-part-three */
+    .featured_container{
+        flex-direction: column;
+       text-align: center;
+    }
+    /* footer */
+  
 }

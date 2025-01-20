@@ -124,7 +124,7 @@
         margin:150px auto;
         grid-template-columns: repeat(4,1fr);
         box-shadow: none;
-        padding: 40px 30px;
+        padding: 40px 40px;
         gap:40px;
        justify-items: center;
         
